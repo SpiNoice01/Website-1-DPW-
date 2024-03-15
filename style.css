@@ -1,0 +1,66 @@
+body{
+    background-color: antiquewhite;
+    margin: 0px;
+
+}
+
+/* NAVBAR START */
+.NavigasiAtas{
+    background-color: blue;
+    line-height: 300%;
+}
+
+.FormulirAtas{
+    float: right;
+    margin-right: 10%;
+    height: 100px; 
+    color: white;
+}
+
+.TextAtas{
+    color: white;
+    font-size: 150%;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-left: 5%;
+}
+
+/* NAVBAR CLOSE */
+/*  */
+/* CONTENT TENGAH */
+
+.textKiriContent{
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.textKiriContent .textKiriContentTop{
+    color: rgb(0, 95, 29);
+    font-weight: 900;
+    font-size: 150%;
+}
+
+.textKiriContent .textKiriContentMiddle{
+    color: blue;
+    font-weight: 900;
+    font-size: 300%;
+}
+
+.textSignIN{
+    margin-left: 5%;
+}
+
+.SignInDalamKotak{
+    float: right;
+    margin-right: 10%;
+
+    background: white;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.FormulirDalamBOX{
+    margin-left: 2%;
+}
