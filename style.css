@@ -59,14 +59,14 @@ body{
  .textKiriContentTop{
     color: #1b90a1;
     font-weight: 900;
-    font-size: 4vh;
+    font-size: 140%;
     margin-top: 20%;
 }
 
  .textKiriContentMiddle{
     color: #0852d9;
     font-weight: 900;
-    font-size: 9vh;
+    font-size: 8vh;
     margin-top: 0%;
 }
 
@@ -84,7 +84,7 @@ body{
     margin-right: 10%;
     border-radius: 2%;
     background: white;
-    width: 400px;
+    width: 40%;
     height: 65vh;
 }
 
@@ -142,7 +142,7 @@ body{
 
 .LupaPassword{
     float: right;
-    margin-top: 2vh ;
+    margin-top: 3vh ;
     margin-right: 150px;
     margin-left: 0vh;
     font-size: s3vh;
