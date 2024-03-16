@@ -1,16 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Isian</title>
+    <link rel="stylesheet" href="style_Jeroan.css">
 </head>
-<body>
-    <a href="index.html">
-        <button> Balik</button>
-    </a>
-    
 
-    <p>MIAW</p>
+<body>
+    <header class="Header">
+        <a href="index.html">
+        <img class="HeaderLogo"
+            src="https://iconape.com/wp-content/files/yj/247598/png/Midnight_Club_3_Dub_Edition-logo.png" alt="" >
+        </a>
+    </header>
+
+    <!-- HEADER -->
+    <header class="NavHeader">
+        <nav>
+            <ul>
+                <li><a class="NavMenu" href="#">Menu</a></li>
+                <li><a class="NavRegister" href="#">register</a></li>
+                <li><a class="NavLogin" href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- HEADER CLOSE -->
+
+    <form action="ඞ" class="FormulirKiri">
+        <table>
+            <tr>
+                <th>ID</th>
+                <th><input type="text" name="ID" id="IDfrm" placeholder="  ID"></th>
+            </tr>
+            <tr>
+                <th>Nama</th>
+                <th><input type="text" name="Nama" id="Namafrm" placeholder="  Nama"></th>
+            </tr>
+        </table>
+        <br><br> 
+        <!-- RADIO -->
+        <label for="JenisKelamin">JK</label>
+        <input type="radio" name="JK" id="JenisKelamin" placeholder="L">
+        <label for="JenisKelamin">L</label>
+        <input type="radio" name="JK" id="JenisKelamin" placeholder="L">
+        <label for="JenisKelamin">J</label>
+        <br><br> 
+        <!-- Select (Dropdown) -->
+        <label for="ListAgama">Agama</label>
+        <select name="cars" id="ListAgama">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+        </select>
+        <br><br> 
+        <!-- Alamat -->
+        <label for="TxtAreaAlamat">Alamat</label> <br>
+        <textarea name="Alamat" id="TxtAreaAlamat" cols="30" rows="10"></textarea>
+    </form>
+
+    <form action="ඞ" class="FormulirKanan">
+        <label for="ඞ">Hobi</label> <br>
+        <input type="checkbox" id="Hobi1" name="Bola" value="Olahraga">
+        <label for="hobi1"> Bola </label><br>
+        <input type="checkbox" id="Hobi2" name="Basket" value="Olahraga">
+        <label for="hobi2"> Basket </label><br>
+        <input type="checkbox" id="Hobi3" name="Nyanyi" value="Seni">
+        <label for="hobi3"> Nyanyi </label><br>
+    </form>
+
+    <div class="TombolBawahAlamat">
+        <button>daftar</button>
+        <button>Batal</button>
+    </div>
+
+    <!-- FOOTER -->
+
+    <div id="footer">
+    </div>
+
 </body>
+
 </html>
