@@ -2,36 +2,36 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-
+  background-image: linear-gradient(TO right, #642b73, #c6426e);
 }
 
-
-
-
-.Header{
-    background-color: blue;
+.Header {
+  background-color: blue;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .LogoHeader {
-
 }
- /*  HEADER LOGO CLOSE */
- 
+/*  HEADER LOGO CLOSE */
+
 .NavHeader {
-    background: rgb(91, 143, 255);
-    width: 100%;
-    height: 10vh;
+background: rgba(255, 255, 255, 0.2);
+border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 100%;
+  height: 5vh;
 }
 
 .NavHeader ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .NavHeader a {
-    font-size: larger;
-    font-weight: 900;
+  font-size: larger;
+  font-weight: 900;
+  color: white;
 }
 
 .NavHeader .NavMenu {
@@ -58,55 +58,155 @@ Nav a {
 /*  */
 /* FORMULIR KIRI*/
 
-label{
-    margin-right: 20px;
+.BoxKiri {
+  display: fixed;
+  float: left;
+  margin-top: 4%;
+  margin-left: 10%;
+  border-radius: 2%;
+  background: linear-gradient(to bottom right, #e0e0e015, #ffffff83);
+  width: 40%;
+  height: 65vh;
 }
 
-.FormulirKiri{
-    margin-top: 3%;
-    margin-left: 3%;
-    float: left;
+th {
+  margin-right: 20px;
+  color: #ffffff;
 }
 
-
-#IDfrm{
-    width: 10vh;
-    margin-left: 5px;
+.FormulirKiri {
+  margin-top: 20%;
+  margin-left: 20%;
+  float: left;
 }
 
-#Namafrm{
-    width: 10vh;
-    margin-left: 5px;
-
+#IDfrm {
+  width: 15vh;
+  height: 2vh;
+  margin-left: 5px;
+  border: none;
+  border-radius: 8px;
 }
 
-#Alamat{
-    height: 20vh;
-    width: 40vh;
+#Namafrm {
+  width: 15vh;
+  height: 2vh;
+  margin-left: 5px;
+  border: none;
+  border-radius: 8px;
 }
+
+.BoxRadio {
+  display: fixed;
+  float: left;
+  margin-bottom: 50px;
+
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.479);
+  width: 110%;
+}
+
+.BoxRadio #JK {
+  color: #000000;
+  bottom: 0;
+  margin-left: 20px;
+  margin-right: 5%;
+}
+
+.BoxRadio label {
+  font-size: larger;
+  font-weight: 700;
+}
+
+.BoxRadio input {
+  margin-left: 0px;
+}
+
+.Agama label {
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: larger;
+}
+.Agama #ListAgama {
+  width: 50%;
+  font-size: larger;
+}
+
+.Alamat label {
+  font-size: larger;
+  height: 20vh;
+  width: 40vh;
+  color: #ffffff;
+}
+
+.TombolBawahAlamat {
+  float: left;
+  position: fixed;
+  margin-bottom: 30vh;
+  margin-left: 10%;
+  width: 100px;
+  height: 100px;
+}
+
+.TombolBawahAlamat #Daftar {
+  float: left;
+  position: fixed;
+  bottom: 0;
+  border-radius: 6px;
+  margin-bottom: 30vh;
+  margin-right: 10%;
+  border: 0;
+  width: 100px;
+  height: 70px;
+  font-size: larger;
+}
+
+.TombolBawahAlamat #Batal {
+  float: left;
+  position: fixed;
+  border-radius: 6px;
+  bottom: 0;
+  margin-bottom: 30vh;
+  margin-left: 10%;
+  border: 0;
+  width: 100px;
+  height: 70px;
+  font-size: larger;
+}
+
 /*  */
 /* FORMULIR KANAN */
-.FormulirKanan{
-    float: right;
-    margin-right: 20%;
-    margin-top: 5%;
+.BoxKanan {
+  display: fixed;
+  float: right;
+  margin-top: 4%;
+  margin-left: 10%;
+  border-radius: 2%;
+  background: linear-gradient(to bottom right, #e0e0e015, #ffffff83);
+  width: 40%;
+  height: 65vh;
 }
 
-.TombolBawahAlamat{
-    float: left;
-    position: fixed;
-    bottom: 0;
-    margin-bottom: 200px;
-    margin-left: 10%;
+.FormulirKanan {
+  float: right;
+  margin-right: 60%;
+  margin-top: 30%;
 }
+
+.FormulirKanan label{
+    color: white;
+    font-weight: 500;
+    font-size: larger;
+  }
+  
 
 #footer {
-    position: fixed;
-    font-weight: bold;
-    padding: 10px 10%;
-    background-color: rgb(255, 0, 0);
-    color: #1089a6;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
+  position: fixed;
+  font-weight: bold;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  padding: 10px 10%;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
