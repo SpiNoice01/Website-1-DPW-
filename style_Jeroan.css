@@ -153,8 +153,8 @@ th {
   position: fixed;
   bottom: 0;
   border-radius: 6px;
-  margin-bottom: 30vh;
-  margin-right: 10%;
+  margin-bottom: 300px;
+  margin-left: 0;
   border: 0;
   width: 100px;
   height: 70px;
@@ -166,8 +166,8 @@ th {
   position: fixed;
   border-radius: 6px;
   bottom: 0;
-  margin-bottom: 30vh;
-  margin-left: 10%;
+  margin-bottom: 300px;
+  margin-left: 120px;
   border: 0;
   width: 100px;
   height: 70px;
@@ -180,10 +180,10 @@ th {
   display: fixed;
   float: right;
   margin-top: 4%;
-  margin-left: 10%;
+  margin-right: 10%;
   border-radius: 2%;
   background: linear-gradient(to bottom right, #e0e0e015, #ffffff83);
-  width: 40%;
+  width: 30%;
   height: 65vh;
 }
 
