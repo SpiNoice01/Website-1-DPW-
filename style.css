@@ -12,6 +12,7 @@ body{
 .TextAtas{
     color: white;
     font-size: 220%;
+    padding: 15px;
     font-weight: 900;
     margin-left: 5%;
 }
@@ -24,14 +25,15 @@ body{
 }
 
 #Emailfrm{
-    height: 23px ;
+    height: 30px ;
     border-radius: 3px;
     border: 0;
     outline: none;
 }
 
 #Passwordfrm{
-    height: 23px ;
+    margin-top: 20px;
+    height: 30px ;
     border-radius: 3px;
     border: 0;
     outline: none;
@@ -43,7 +45,7 @@ body{
     border: 0;
     border-radius: 10%;
     float: right;
-    margin-top: 12px;
+    margin-top: 22px;
     margin-right: 50px;
 }
 
