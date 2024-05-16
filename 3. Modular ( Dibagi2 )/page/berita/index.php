@@ -1,11 +1,24 @@
-<?php include "_component/header.php"; ?>
-<?php include "../config/koneksi.php"; ?>
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
 
 <section class="container">
 
     <body>
-        <?php include "../config/koneksi.php"; ?>
+        <?php
+        include "config/koneksi.php";
+        ?>
+
+        <?php
+        // var_dump($conn);
+        ?>
+
         <nav class="navbar navbar-expand-lg bg-primary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Navbar</a>
@@ -126,4 +139,13 @@
     </div>
 </section>
 
-<?php include "_component/footer.php"; ?>
+
+
+<footer>
+    <p class="text-center mt-10"> Coyright 2024 ITTP</p>
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
