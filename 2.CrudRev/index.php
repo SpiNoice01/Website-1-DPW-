@@ -68,8 +68,8 @@
     </section>
 
     <!-- ==================================================================================================================== -->
-    <section id="BeritaCard" class="d-flex justify-content-evenly ">
-        <div class="row row-cols-1 row-cols-md-3 g-4 w-50 container-fluid text-center mt-10">
+    <section id="BeritaCard" class="d-flex justify-content-evenly  ">
+        <div class="row row-cols-1 row-cols-md-3 g-4 w-50 container-fluid text-center mt-4">
 
             <?php
             $query = "SELECT * FROM berita";
@@ -83,7 +83,7 @@
                     $id = $row["id_berita"];
                     ?>
                     <!-- ================================= -->
-                    <div class="col">
+                    <div class="col ">
                         <div class="card ">
                             <img src="<?php echo $row['gambar'] ?>" class="card-img-top" alt="Kuching"> <!-- Gambar -->
                             <div class="card-body">
