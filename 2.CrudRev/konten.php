@@ -69,7 +69,7 @@
 
     <!-- ==================================================================================================================== -->
     <section id="BeritaCard" class="d-flex justify-content-evenly ">
-        <div class="container-fluid text-center mt-10">
+        <div class="container-fluid text-center mt-4">
 
             <?php
             $query = ' SELECT * FROM berita where id_berita = "' . $_GET["id"] . '"';
